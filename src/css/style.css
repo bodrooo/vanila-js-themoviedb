@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background: #484d5d;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: #484d5d;
+}
+
+.itemList {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: #484d5d;
+}
+
+.item {
+  width: 275px;
+  border: 1px solid white;
+  background-color: white;
+  box-shadow: 0 0 3px 3px black;
+  border-radius: 5px;
+  display: flex;
+  margin-left: 5px;
+  margin-right: 5px;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+.item .title {
+  margin-top: 5px;
+  font-family: "Poppins", sans-serif;
+}
+.item img {
+  margin-top: 10px;
+  box-shadow: 0 0 2px 3px black;
+}
+.item .release {
+  margin-top: 7px;
+  font-size: 17px;
+  font-family: "Roboto", sans-serif;
+}
+.item .rating {
+  text-decoration: underline;
+}
+
+.search {
+  height: 100px;
+}
+.search #search {
+  margin-top: 15px;
+  outline: none;
+  border-radius: 3px;
+  border: none;
+  border: 0 solid transparent;
+  border-bottom: 2px solid black;
+  text-indent: 3px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  transition: border ease 0.5s;
+}
+.search #search:focus {
+  border: 2px solid black;
+}
+.search #btnSearch {
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  box-shadow: 1px 1px 1px 1px black;
+  padding: 2px;
+  border-radius: 2px;
+  transition: box-shadow ease 0.5s, transform 0.1s ease-out;
+  -webkit-moz-user-select: none;
+  -moz-moz-user-select: none;
+  -ms-moz-user-select: none;
+  -o-moz-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+.search #btnSearch:active {
+  box-shadow: none;
+  transform: translate(1px, 1px);
+  border: 1px solid black;
+}
+
+.btn {
+  width: 100px;
+  position: absolute;
+  outline: none;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+
+#next {
+  right: 0;
+}
+
+.footer {
+  margin-top: 10px;
+  width: 90%;
+  height: 200px;
+  position: relative;
+}
+.footer .information {
+  width: 100%;
+  margin-top: 20px;
+  text-align: center;
+}
+.footer .information p {
+  margin-top: 30px;
+}
+
+/*# sourceMappingURL=style.css.map */

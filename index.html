@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <script src="//cdn.jsdelivr.net/npm/eruda"></script>
+  <script>eruda.init();</script>
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Find Film</title>
+  <link rel="stylesheet" href="./src/css/style.css" />
+</head>
+<body>
+  
+  <div class="container">
+    <div class="search">
+      <h1>Find Film</h1>
+      <input type="text" id="search" placeholder="Search.." />
+      <button id="btnSearch">SEARCH</button>
+    </div>
+    <div class="itemList" id="itemList">
+    </div>
+    <div class="footer">
+      <button class="btn" type="button" id="previous">Previous Page</button>
+      <button class="btn" type="button" id="next">Next Page</button>
+      <div class="information">
+        <p id="copy"></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="./src/main.js" type="module"></script>
+</body>
+</html>
